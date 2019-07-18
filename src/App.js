@@ -1,11 +1,12 @@
 import React from "react";
-import Picture from './Picture';
+import NasaCard from './NasaCard';
+import './styles/css/global.css';
 
+// comment for new branch to be different lol
 function App() {
-
   return (
     <div className="App">
-      <Picture />
+      <NasaCard />
     </div>
   );
 }
